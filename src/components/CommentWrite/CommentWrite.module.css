@@ -1,0 +1,55 @@
+.section_write {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5em 0 0 0;
+}
+.container_form {
+  background-color: var(--White);
+  padding: 2em;
+  border-radius: 0.6em;
+}
+#form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+}
+.comments_img img {
+  background: url("../../assets/avatars/image-maxblagun.png") no-repeat center
+    center;
+  background-size: 3em;
+  width: 3em;
+  height: 3em;
+  border-radius: 1em;
+  border-radius: 7em;
+}
+.textarea {
+  resize: none;
+  padding: 1em;
+  width: 32em;
+  height: 6em;
+  margin: 0 1.5em 0 1.5em;
+  border-radius: 0.5em;
+  border: 0.1em solid var(--Color-Border);
+  font: 0.9rem var(--font-family);
+}
+textarea::placeholder {
+  font: 0.9rem var(--font-family);
+}
+.btn_send {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--Purple);
+  color: var(--White);
+  width: 7em;
+  padding: 0.9em 1em;
+  text-align: center;
+  border-radius: 0.5em;
+  font: 400 1rem var(--font-family);
+}
+.btn_send:hover {
+  background-color: #5d64e4;
+  transition: 0.3s ease-in-out;
+}

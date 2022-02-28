@@ -1,0 +1,25 @@
+.section_edite {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+}
+textarea {
+  color: var(--Color-Text);
+  border: 0.1em solid var(--Color-Border);
+  border-radius: 0.5em;
+  resize: none;
+  font: 0.9rem var(--font-family);
+  width: 44em;
+  height: 4em;
+}
+.btn_update {
+  background-color: var(--Purple);
+  color: var(--White);
+  width: 7em;
+  padding: 0.9em 1em;
+  text-align: center;
+  border-radius: 0.5em;
+  font: 400 1rem var(--font-family);
+  margin: 0.5em 0 0 0;
+}

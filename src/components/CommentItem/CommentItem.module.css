@@ -1,0 +1,166 @@
+.section_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5em 0 0 0;
+}
+.container_item {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: var(--White);
+  padding: 2em 1em 2em 1em;
+  border-radius: 0.6em;
+  height: 9em;
+}
+.container_vote {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: var(--Gray);
+  width: 2.5em;
+  height: 6em;
+  border-radius: 0.6em;
+}
+.container_vote .plus {
+  width: 2em;
+  height: 1.5em;
+  font: var(--font-family);
+}
+.container_vote i:hover {
+  color: var(--Purple);
+}
+.container_vote .minus {
+  width: 2em;
+  height: 1.5em;
+  font: var(--font-family);
+}
+.container_vote i {
+  color: var(--Color-Vote);
+  font-weight: 600;
+}
+.container_item .vote_number {
+  font: 1rem var(--font-family);
+  color: var(--Purple);
+  font-weight: 600;
+  text-decoration: none;
+}
+.container_text {
+  height: 6em;
+  margin: 0 0 0 1.5em;
+}
+.container_text .Information {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 40em;
+  height: 2em;
+  margin: 0 0 0.5em 0;
+}
+.Information img {
+  background-size: 2em;
+  width: 2em;
+  height: 2em;
+  border-radius: 1em;
+}
+.Information .user_name p {
+  font: 1rem var(--font-family);
+  font-weight: bold;
+  margin: 0 0.4em 0 1em;
+  color: var(--Black);
+  text-decoration: none;
+}
+.Information .mention {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Purple);
+  font: 1rem var(--font-family);
+  color: var(--White);
+
+  border-radius: 0.2em;
+  margin: 0 1em 0 0;
+}
+.Information .date p {
+  font: 1rem var(--font-family);
+  color: var(--Color-Text);
+  width: 8em;
+  text-decoration: none;
+  margin: 0;
+}
+.text {
+  font: 0.9rem var(--font-family);
+  color: var(--Color-Text);
+  width: 45em;
+  height: 4em;
+  margin: 0.3em 0 0 0;
+  text-decoration: none;
+}
+.position_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 0 0 0 14em;
+}
+.container_delete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.container_delete i {
+  color: var(--Red);
+  font-weight: 600;
+  font-size: 1rem;
+}
+.text_delete {
+  font-family: var(--font-family);
+  color: var(--Red);
+  font-weight: 600;
+  font-size: 1rem;
+}
+.container_edit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.container_edit i {
+  color: var(--Purple);
+  font-weight: 600;
+  font-size: 1rem;
+}
+.text_edit {
+  font-family: var(--font-family);
+  color: var(--Purple);
+  font-weight: 600;
+  font-size: 1rem;
+}
+.container_reply {
+  align-self: flex-end;
+  margin: 0 0 0 3em;
+}
+.container_reply .btn_reply {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font: 1rem var(--font-family);
+  font-weight: 700;
+  color: var(--Purple);
+}
+.container_reply {
+  align-self: flex-end;
+  margin: 0 0 0 3em;
+}
+.container_reply .btn_reply {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font: 1rem var(--font-family);
+  font-weight: 700;
+  color: var(--Purple);
+}

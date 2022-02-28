@@ -1,0 +1,15 @@
+:root {
+  --Gray: #f5f6fa;
+  --Purple: #5358b6;
+  --Black: #000000;
+  --Red: #eb1927;
+  --White: #ffffff;
+  --Color-Border: #cecfd0;
+  --Color-Text: #818489;
+  --Color-Vote: #cac6e9;
+  --Color-Login: #e8eef0;
+  --Blue: rgb(57, 44, 233);
+  --Color-User: #e0e1e1;
+
+  --font-family: "Rubik";
+}

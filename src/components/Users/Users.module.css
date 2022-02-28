@@ -1,0 +1,39 @@
+.container_user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+.btn_user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 1em;
+  width: 13em;
+  height: 7em;
+  margin: 1em;
+  background: var(--Color-User);
+  border: 0.1em solid var(--White);
+  transition: 0.4s ease-in-out;
+  user-select: none;
+}
+.btn_user:hover {
+  background: var(--Color-Login);
+  border: 0.1em solid var(--Black);
+}
+.btn_user img {
+  background: url("../../assets/avatars/image-maxblagun.png") no-repeat center
+    center;
+  width: 4em;
+  height: 4em;
+  border-radius: 2em;
+  background-size: 4em;
+}
+.btn_user h2 {
+  font-family: var(--font-family);
+  margin: 0 0 0 0.8em;
+  font-weight: 600;
+}
