@@ -35,6 +35,7 @@ const App = () => {
 
     useEffect(() => {
         const data = localStorage.getItem("save");
+        if(!data) return;
         dispatch({ type: "cash", payload: JSON.parse(data) });
     }, []);
     
